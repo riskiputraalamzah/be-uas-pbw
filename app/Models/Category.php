@@ -12,4 +12,9 @@ class Category extends Model
         'name',
         'slug',
     ];
+
+    public function galleries()
+    {
+        return $this->hasMany(Gallery::class);
+    }
 }

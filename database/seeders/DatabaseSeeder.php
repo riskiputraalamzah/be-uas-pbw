@@ -15,7 +15,12 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             UserSeeder::class,
-            HomeSeeder::class
+            HomeSeeder::class,
+            BeritaSeeder::class,
+            CategorySeeder::class,
+            ContactSeeder::class,
+            SambutanSeeder::class,
+            GallerySeeder::class
         ]);
     }
 }
